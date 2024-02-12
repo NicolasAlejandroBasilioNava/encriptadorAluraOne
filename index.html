@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="./img/Logo.png" alt="">
+  </header>
+  <main>
+    <div class="box">
+      <article class="encriptingBox">
+        <textarea id="entradaTexto" class="inputBox" name="inputText" id="" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+        <section class="btnMainBox">
+          <p>Solo letras minusculas y sin acentos</p>
+          <div class="btnsBox">
+            <input class="btn" type="button" value="Encriptar" onclick="encriptarTexto()">
+            <input class="btn" type="button" value="Desencriptar" onclick="desencriptarTexto()">
+          </div>
+        </section>
+      </article>
+
+      <div class="sideBox">
+        <div class="copyContainer">
+          <div id="initCopyContainer" style="background-color: transparent;">
+            <h2 style="background-color: transparent;">Aun no has generado tu encriptación</h2>
+            <img src="./img/Muñeco.png" alt="muñeco" style="background-color: transparent;">
+          </div>
+
+          <p id="textoGenerado" style="background-color: transparent; align-self: flex-start;">  
+          </p>
+          <input id="copyBtn" class="btn copyBtn" type="button" value="Copiar" onclick="copiarTexto()">
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <footer>
+
+  </footer>
+  <script src="./app.js"></script>
+</body>
+</html>

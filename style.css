@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  background-color: #f3f5fc;
+}
+
+header {
+  margin-top: 2%;
+}
+
+.box{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  
+  margin-top: 1%;
+  padding: 3% 9%;
+
+  
+}
+
+.encriptingBox{
+  width: 60%;
+}
+
+.inputBox{
+  border: 0;
+  width: 100%;
+  height: 50vh;
+  resize: none;
+  font-size: 1.5rem;
+}
+
+.btnMainBox{
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.btnsBox{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+  width: 100%;
+
+}
+
+.btn{
+  font-size: 1.1rem;
+  padding: 2%;
+  width: 45%;
+  margin: 1% 0%;
+  border-radius: 1rem;
+}
+
+.btn:hover{
+  transform: scale(1.2, 1.2);
+  transition: 300ms;
+}
+
+.sideBox{
+  background-color: antiquewhite;
+  display: flex;
+  flex-flow: column nowrap;
+  border-radius: 1.5rem;
+  min-height: 10vh;
+  width: 30%;
+  
+  padding: 1%;
+}
+
+.copyContainer{
+  display: flex;
+  align-items: flex-end;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-content: center;
+  text-align: left;
+  min-width: 94%;
+  height: 60vh;
+  background-color: transparent;
+  padding: 3%;
+
+}
+
+#copyBtnLabel{
+  display: none;
+  background-color: transparent;
+  color: red;
+}
+
+.copyBtn{
+  display: none;
+  align-self: center;
+  width: 50%;
+  background-color: burlywood;
+  /* bottom: 0; */
+}
